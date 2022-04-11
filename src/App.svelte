@@ -79,7 +79,7 @@
 <main>
 	<h1>Hello {name}!</h1>
 	<input bind:value={msg} />
-	<button on:click={sent}></button>
+	<button on:click={sent}>Send</button>
 	<ul>
 		{ #each chats.chain as chat }
 		<li>{chat.data.id}: {chat.data.data}</li>
